@@ -8750,10 +8750,22 @@ stacktrace-parser@0.1.10:
   dependencies:
     type-fest "^0.7.1"
 
-starknet@^2.0.1:
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/starknet/-/starknet-2.0.1.tgz#07881137911533e6dfe8a5db83da13f6f7b41475"
-  integrity sha512-25N7pUAOA8sRNDQAchygeU1vTIbl3AqDJXcwQmoLYIrstTizwwZ3TvmkcZtn8KxKoIiWnUBTBftXNpeNvCgroA==
+"starknet@git+https://github.com/ironsoul0/starknet.js.git":
+  version "2.0.2"
+  resolved "git+https://github.com/ironsoul0/starknet.js.git#02e4320fc519ff90102fa1e1887f1273ed08b92b"
+  dependencies:
+    axios "^0.23.0"
+    bn.js "^5.2.0"
+    elliptic "^6.5.4"
+    ethereum-cryptography "^0.2.0"
+    hash.js "^1.1.7"
+    json-bigint "^1.0.0"
+    minimalistic-assert "^1.0.1"
+    pako "^2.0.4"
+
+"starknet@https://github.com/ironsoul0/starknet.js":
+  version "2.0.2"
+  resolved "https://github.com/ironsoul0/starknet.js#42c0ad845ebdf553b90e0e8b173b9bca15b6e51d"
   dependencies:
     axios "^0.23.0"
     bn.js "^5.2.0"

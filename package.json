@@ -26,5 +26,8 @@
       "parser": "typescript"
     }
   },
-  "license": "GPLV3"
+  "license": "GPLV3",
+  "dependencies": {
+    "starknet": "git+https://github.com/ironsoul0/starknet.js.git"
+  }
 }
